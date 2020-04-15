@@ -16,8 +16,8 @@ import org.junit.runner.RunWith
 class StartDMTest {
     companion object {
         private val TAG = StartDMTest::class.java.simpleName
-        private const val DELAY = 2000L
-        private const val TIMEOUT = 10000L
+        private const val DELAY = 5000L
+        private const val TIMEOUT = 45000L
     }
 
     private val instrumentation by lazy { InstrumentationRegistry.getInstrumentation() }
